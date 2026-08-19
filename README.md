@@ -4,6 +4,7 @@ A production-ready Discord bot for [OpenFront](https://openfront.io/) that queri
 
 Only the official API is used — no unofficial endpoints, scraping or arbitrary URL fetching.
 Note: **some** code was gen by ai, with human review.
+> Note2: Not official
 ## Table of contents
 
 1. [Project description](#1-project-description)
