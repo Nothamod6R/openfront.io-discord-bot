@@ -61,7 +61,7 @@ All embeds use consistent colors, timestamps and emojis. Pagination is driven by
 ## 3. Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Nothamod6R/openfront.io-discord-bot.git
 cd openfront.io-discord-bot
 pnpm install
 cp .env.example .env   # then edit .env with your token
