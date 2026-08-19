@@ -1,0 +1,13 @@
+services:
+  bot:
+    build: .
+    container_name: openfront-discord-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      PORT: 3000
+    ports:
+      - "3000:3000"
+    # Optional: harden the bot with memory limits.
+    # mem_limit: 256m
